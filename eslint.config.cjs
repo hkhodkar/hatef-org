@@ -26,8 +26,8 @@ module.exports = [
           allow: ['^.*/eslint(\\.base)?\\.config\\.[cm]?js$'],
           depConstraints: [
             {
-              sourceTag: '*',
-              onlyDependOnLibsWithTags: ['*'],
+              sourceTag: 'domain:finance',
+              onlyDependOnLibsWithTags: ['domain:finance'],
             },
           ],
         },
