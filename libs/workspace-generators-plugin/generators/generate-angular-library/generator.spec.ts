@@ -1,7 +1,7 @@
 import { createTreeWithEmptyWorkspace } from '@nx/devkit/testing';
 import { Tree, readProjectConfiguration } from '@nx/devkit';
 
-import { generateAngularLibraryGenerator } from './src';
+import { generateAngularLibraryGenerator } from './generator';
 import { GenerateAngularLibraryGeneratorSchema } from './schema';
 
 describe('generate-angular-library generator', () => {

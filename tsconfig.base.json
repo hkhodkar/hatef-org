@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@business-tools/workspace- generators-plugin": [
+      "@business-tools/workspace-generators-plugin": [
         "libs/workspace-generators-plugin/src/index.ts"
       ]
     }
